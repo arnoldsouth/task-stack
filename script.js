@@ -137,7 +137,7 @@ const renderTaskCount = (selectedList) => {
   ).length;
 
   const taskString = incompleteTaskCount === 1 ? 'task' : 'tasks';
-  listCountElement.innerText = `${incompleteTaskCount} ${taskString} tasks remaining`;
+  listCountElement.innerText = `${incompleteTaskCount} ${taskString} remaining`;
 };
 
 const renderLists = () => {
